@@ -1,8 +1,10 @@
+import Navbar from '../components/navbar.jsx'
 import travelBanner from "../assets/travelBanner.jpg"
 
 const Home = () => {
     return (
       <>
+        <Navbar/>
         <div
           style={{
             backgroundImage: `url(${travelBanner})`,
