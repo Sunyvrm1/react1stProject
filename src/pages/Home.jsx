@@ -1,4 +1,5 @@
 import Navbar from '../components/navbar.jsx'
+import Footer from '../components/footer.jsx'
 import travelBanner from "../assets/travelBanner.jpg"
 
 const Home = () => {
@@ -21,6 +22,8 @@ const Home = () => {
             Explore Now
           </button>
         </div>
+
+        <Footer/>
       </>
     );
 }
