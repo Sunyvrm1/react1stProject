@@ -14,23 +14,11 @@ const Navbar = () => {
           <img className="w-[60px]" src={logo} alt="" />
 
           <ul className="flex gap-8">
-            {/* {menu.map(({pageName, path}) => (
-              <Link key={pageName} path={path}>
-                <li className="font-semibold">{pageName}</li>
-              </Link>
+            {/* {menu.map(({ pageName, path }) => (
+              <li key={pageName} className="font-semibold">
+                <Link to={path}>{pageName}</Link>
+              </li>
             ))} */}
-            {/* <Link to="/">
-              <li className="font-semibold">Home</li>
-            </Link>
-            <Link to="/about">
-              <li className="font-semibold">About</li>
-            </Link>
-            <Link to="/contact">
-              <li className="font-semibold">Contact</li>
-            </Link> */}
-            <li className="font-semibold">Home</li>
-            <li className="font-semibold">About</li>
-            <li className="font-semibold">Contact</li>
           </ul>
         </div>
       </>

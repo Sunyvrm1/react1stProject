@@ -9,7 +9,7 @@ const Home = () => {
         <div
           style={{
             backgroundImage: `url(${travelBanner})`,
-            height: "90vh",
+            height: "80vh",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

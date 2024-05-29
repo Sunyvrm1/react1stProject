@@ -14,15 +14,15 @@ import './index.css'
 //     element: <App />,
 //     children: [
 //       {
-//         path: "/home",
+//         path: "home",
 //         element: <Home />,
 //       },
 //       {
-//         path: "/about",
+//         path: "about",
 //         element: <About />,
 //       },
 //       {
-//         path: "/contact",
+//         path: "contact",
 //         element: <Contact />,
 //       },
 //     ],
