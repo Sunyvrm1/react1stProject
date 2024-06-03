@@ -19,6 +19,9 @@ const Navbar = () => {
                 <Link to={path}>{pageName}</Link>
               </li>
             ))} */}
+            <li className="font-semibold">Home</li>
+            <li className="font-semibold">About</li>
+            <li className="font-semibold">Contact</li>
           </ul>
         </div>
       </>
